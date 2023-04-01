@@ -125,7 +125,7 @@ a {
 #hero-text {
 	height: 100px;
     color: rgb(5, 77, 3);
-    padding-left: 520px;
+    padding-left: 480px;
 }
 
 #hero-image {
@@ -190,6 +190,12 @@ a {
 
 /* #2 */
 
+#hero-text2 {
+	height: 100px;
+    color: rgb(5, 77, 3);
+    padding-left: 460px;
+}
+
 #button1 {
     margin-top: -10px;
     margin-left: 590px;
@@ -242,7 +248,7 @@ a {
     margin-left: 40%;
 }
 
-.lb_heading {
+.lb_heading2 {
     text-align: left;
     color: white;
     padding-top: 130px;
