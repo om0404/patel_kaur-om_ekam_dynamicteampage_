@@ -1,11 +1,3 @@
-
-/* #2 */
-
-#button1 {
-    margin-top: -10px;
-    margin-left: 590px;
-}
-
 #container {
 	margin: 0 auto;
 	width: 1200px;
@@ -104,11 +96,6 @@ a {
     box-sizing: border-box;
     box-shadow: 0px 0 20px 20px white;  
 }
-
-#button1:hover{
-    color: black;
-}
-
 #button:hover{
     color: black;
 }
@@ -130,10 +117,10 @@ a {
     transition: all .5s ease-in-out;
 }
 
-/* 
+
 #hero {
 	
-} */
+}
 
 #hero-text {
 	height: 100px;
@@ -157,7 +144,6 @@ a {
     left: 0;
 
     background-color: rgba(30, 30, 30, 30.85);
-    background-image: url('../images/ekam-2.jpg');
     background-image: url('../images/om_2.jpg');
     background-repeat: no-repeat;
 
@@ -180,8 +166,6 @@ a {
 
 .lightbox_close:hover { opacity: 0.5; color: rgb(5, 77, 3); }
 
-/* .lightbox2 article {} */
-
 .lightbox article {
     width: 45%;
     margin-left: 40%;
@@ -201,7 +185,77 @@ a {
     padding-top: 150px;
 }
 
-.lightbox2:target { display: block; }
 
 .lightbox:target { display: block; }
+
+/* #2 */
+
+#button1 {
+    margin-top: -10px;
+    margin-left: 590px;
+    background-color: black;
+    color: white;
+    transition: o.3s ease black;
+    font-size: 23px;
+    border: none;
+    border-radius: none;
+    box-sizing: border-box;
+    box-shadow: 0px 0 20px 20px white;  
+}
+#button1:hover{
+    color: black;
+}
+
+.lightbox2 {
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    background-color: rgba(30, 30, 30, 30.85);
+    background-image: url('../images/ekam-2.jpg');
+    background-repeat: no-repeat;
+
+    background-size: 55vh;
+    background-position: 40px center;
+
+    z-index: 5000;
+
+    display: none;
+}
+
+
+.lightbox_close{
+    margin-left: 1300px;
+    font-size: 40px;
+    color: white;
+    margin-bottom: -200px;
+}
+
+
+.lightbox_close:hover { opacity: 0.5; color: rgb(5, 77, 3); }
+
+.lightbox2 article {
+    width: 45%;
+    margin-left: 40%;
+}
+
+.lb_heading {
+    text-align: left;
+    color: white;
+    padding-top: 130px;
+}
+
+.lb_text {
+    line-height: 1.6 !important;
+    margin-left: 0;
+    padding-top: 2em;
+    color: white;
+    padding-top: 150px;
+}
+
+
+.lightbox2:target { display: block; }
 
