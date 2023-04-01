@@ -1,3 +1,10 @@
+
+/* #2 */
+
+#button1 {
+    margin-top: -10px;
+    margin-left: 590px;
+
 #container {
 	margin: 0 auto;
 	width: 1200px;
@@ -96,6 +103,13 @@ a {
     box-sizing: border-box;
     box-shadow: 0px 0 20px 20px white;  
 }
+
+#button1:hover{
+    color: black;
+}
+
+.lightbox2 {
+
 #button:hover{
     color: black;
 }
@@ -144,6 +158,7 @@ a {
     left: 0;
 
     background-color: rgba(30, 30, 30, 30.85);
+    background-image: url('../images/ekam-2.jpg');
     background-image: url('../images/om_2.jpg');
     background-repeat: no-repeat;
 
@@ -166,6 +181,8 @@ a {
 
 .lightbox_close:hover { opacity: 0.5; color: rgb(5, 77, 3); }
 
+.lightbox2 article {
+
 .lightbox article {
     width: 45%;
     margin-left: 40%;
@@ -185,5 +202,7 @@ a {
     padding-top: 150px;
 }
 
+.lightbox2:target { display: block; }
 
 .lightbox:target { display: block; }
+
