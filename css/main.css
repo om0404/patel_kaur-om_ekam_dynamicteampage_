@@ -1,8 +1,99 @@
+
 /* #2 */
 
 #button1 {
     margin-top: -10px;
     margin-left: 590px;
+
+#container {
+	margin: 0 auto;
+	width: 1200px;
+}
+
+.grid-con {
+	display: grid;
+	grid-template-columns: repeat(12, 70px);
+	grid-column-gap: 16px;
+	padding-left: 140px;
+	padding-right: 140px;
+	font-size: 34px;
+	background-color: #fff;
+	color: #000;
+}
+
+header {
+    background-color: rgb(5, 77, 3);
+    color: #fff;
+    padding: 20px;
+  }
+  
+  h1 {
+    margin: 0;
+    text-align: center;
+  }
+  
+.om{
+    font-size: 76px;
+    color: #fff;
+    padding-left: 100px;
+}
+
+#menu-con{
+    font-size: 32px;
+    box-sizing: border-box;
+    color:#fff;
+    text-decoration: none;
+}
+
+.change-profile{
+    box-sizing: content-box;
+}
+
+#hero-image {
+    width: 350px;
+    height: 400px;
+    margin-top: 150px;
+    
+}
+
+a {
+	text-decoration: none;
+    color:#fff;
+}
+
+.button_1{
+	border: 1px;
+	background-color:#fff;
+	height: 75px;
+	width: 250px;
+	cursor: pointer;
+	color: rgb(5, 77, 3);
+    margin-top: -295px;
+    font-size: 18px;
+    text-decoration: none;
+    border-radius: 25px;
+    
+}
+
+.button_1:hover{
+	background-color: rgb(229, 229, 229);
+	color:black;
+}
+
+.button_1 a{
+    color: rgb(5, 77, 3);
+  }
+
+.button_1 a:hover{
+    color: rgb(5, 77, 3);
+  }
+.hidden {
+	display: none;
+}
+
+#button {
+    margin-top: -10px;
+    margin-left: 600px;
     background-color: black;
     color: white;
     transition: o.3s ease black;
@@ -12,11 +103,53 @@
     box-sizing: border-box;
     box-shadow: 0px 0 20px 20px white;  
 }
+
 #button1:hover{
     color: black;
 }
 
 .lightbox2 {
+
+#button:hover{
+    color: black;
+}
+
+.change-profile{
+    background-color: #fff;
+    color: rgb(5, 77, 3);   
+}
+
+#change-profile:hover {
+    border-radius: 5px;
+    background-color: rgb(5, 77, 3); 
+    color: #fff; 
+}
+
+
+a {
+    text-decoration: none;
+    transition: all .5s ease-in-out;
+}
+
+
+#hero {
+	
+}
+
+#hero-text {
+	height: 100px;
+    color: rgb(5, 77, 3);
+    padding-left: 520px;
+}
+
+#hero-image {
+	padding-left: 360px;
+	height: 500px;
+    border-radius: 25px;
+}
+
+
+.lightbox {
     width: 100vw;
     height: 100vh;
 
@@ -26,6 +159,7 @@
 
     background-color: rgba(30, 30, 30, 30.85);
     background-image: url('../images/ekam-2.jpg');
+    background-image: url('../images/om_2.jpg');
     background-repeat: no-repeat;
 
     background-size: 55vh;
@@ -48,6 +182,8 @@
 .lightbox_close:hover { opacity: 0.5; color: rgb(5, 77, 3); }
 
 .lightbox2 article {
+
+.lightbox article {
     width: 45%;
     margin-left: 40%;
 }
@@ -66,5 +202,7 @@
     padding-top: 150px;
 }
 
-
 .lightbox2:target { display: block; }
+
+.lightbox:target { display: block; }
+
